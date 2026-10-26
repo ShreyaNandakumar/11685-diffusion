@@ -1,0 +1,17 @@
+{
+  "run_mode": "full",
+  "sampler": "DDIM",
+  "checkpoint": "/kaggle/input/datasets/sam140803/checkpoint/checkpoint_epoch_2.pth",
+  "train_epochs": 3,
+  "train_images": 130000,
+  "resolution": 64,
+  "sampling_steps": 50,
+  "generated_images": 5000,
+  "reference_images": 5000,
+  "reference_preprocessing": "PIL RGB bilinear resize to 64x64, PNG",
+  "fid": 100.373238,
+  "is_mean": 4.995794,
+  "is_std": 0.151331,
+  "sampling_seconds": 5107.62,
+  "completed_utc": "2026-10-23T21:37:11.967383+00:00"
+}

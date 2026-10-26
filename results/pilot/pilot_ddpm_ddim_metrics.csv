@@ -1,0 +1,3 @@
+run_mode,sampler,train_epochs,train_images,resolution,sampling_steps,generated_images,reference_images,fid,is_mean,is_std,sampling_seconds,checkpoint,reference_preprocessing,completed_utc
+pilot,DDPM,1,1000,64,50,5000,5000,346.340576,1.323219,0.011982,3560.3,/kaggle/working/experiments/exp-0-kaggle-baseline-pilot/checkpoints/checkpoint_epoch_0.pth,"PIL RGB bilinear resize to 64x64, PNG",2026-10-23T02:17:20.611420+00:00
+pilot,DDIM,1,1000,64,50,5000,5000,388.552368,1.215911,0.011964,3562.07,/kaggle/working/experiments/exp-0-kaggle-baseline-pilot/checkpoints/checkpoint_epoch_0.pth,"PIL RGB bilinear resize to 64x64, PNG",2026-10-23T03:17:24.917313+00:00

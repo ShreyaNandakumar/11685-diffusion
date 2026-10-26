@@ -1,0 +1,17 @@
+{
+  "run_mode": "pilot",
+  "sampler": "DDPM",
+  "checkpoint": "/kaggle/working/experiments/exp-0-kaggle-baseline-pilot/checkpoints/checkpoint_epoch_0.pth",
+  "train_epochs": 1,
+  "train_images": 1000,
+  "resolution": 64,
+  "sampling_steps": 50,
+  "generated_images": 5000,
+  "reference_images": 5000,
+  "reference_preprocessing": "PIL RGB bilinear resize to 64x64, PNG",
+  "fid": 346.340576,
+  "is_mean": 1.323219,
+  "is_std": 0.011982,
+  "sampling_seconds": 3560.3,
+  "completed_utc": "2026-10-23T02:17:20.611420+00:00"
+}
